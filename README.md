@@ -1,5 +1,8 @@
 # APFS File Explorer for Windows 🍏 💻
 
+[![Download Portable ZIP](https://img.shields.io/badge/Download-APFS__Explorer__v1.0.0.zip-0078d7?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/d3d34d/APFS-File-Explorer/releases/latest)
+[![Release](https://img.shields.io/github/v/release/d3d34d/APFS-File-Explorer?style=for-the-badge&color=success)](https://github.com/d3d34d/APFS-File-Explorer/releases/latest)
+
 [![Platform](https://img.shields.io/badge/platform-Windows%2010%20%7C%2011%20(64--bit)-0078d7.svg)](https://microsoft.com/windows)
 [![Python](https://img.shields.io/badge/python-3.10+-3776ab.svg)](https://python.org)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
@@ -9,6 +12,20 @@
 A high-performance, native Windows desktop application designed to explore, browse, preview, and extract files directly from Apple File System (**APFS**) physical drives, external USB hard disks, and disk images (`.dmg`, `.img`, `.raw`).
 
 Built with pure Python and native Windows Win32 APIs—**no paid drivers, kernel extensions, or third-party mounting software required.**
+
+---
+
+## 📥 Download Pre-Built Executable (`.exe`)
+
+> **No Python installation required!** You do not need to install Python, Git, or any coding tools to use this software. A pre-compiled, portable Windows 64-bit application is ready for immediate use.
+
+### ⬇️ [Click Here to Download Latest Release (v1.0.0)](https://github.com/d3d34d/APFS-File-Explorer/releases/download/v1.0.0/APFS-File-Explorer-v1.0.0-Windows-x64.zip)
+
+### How to Run:
+1. Download **[`APFS-File-Explorer-v1.0.0-Windows-x64.zip`](https://github.com/d3d34d/APFS-File-Explorer/releases/download/v1.0.0/APFS-File-Explorer-v1.0.0-Windows-x64.zip)**.
+2. Right-click the `.zip` file and select **Extract All...** (e.g. to your Desktop or Program Files).
+3. Open the extracted folder and right-click **`APFS_Explorer.exe`** ➔ select **Run as Administrator** *(Administrator rights are required by Windows to read raw sectors from physical drives)*.
+4. Select your connected drive under **PHYSICAL DRIVES** and click **`⚡ Copy ENTIRE Drive...`** or browse your files!
 
 ---
 
