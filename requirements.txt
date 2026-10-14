@@ -1,0 +1,15 @@
+# Core APFS Parsing & Extraction
+dissect.apfs>=1.1
+dissect.volume>=3.18
+dissect.cstruct>=4.7
+dissect.util>=3.24
+dissect.fve>=4.6
+
+# Windows Raw Physical Disk Access & System APIs
+pywin32>=312
+
+# Volume Encryption & Decryption (XTS-AES)
+pycryptodome>=3.20.0
+
+# Optional: Building Standalone Windows Executable
+pyinstaller>=6.0

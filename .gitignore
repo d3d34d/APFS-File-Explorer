@@ -1,0 +1,51 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyInstaller / Build outputs
+build/
+dist/
+*.manifest
+*.log
+
+# C# build artifacts & temporary binaries
+*.obj
+*.pdb
+*.exe
+
+# Development scratch scripts and logs
+test_*.py
+test_*/
+*_test.py
+*.tmp
+*.bin
+disk_diag.log
+
+# Legacy / Unused web server prototype
+server.py
+static/
+
+# Legacy Paragon C++ SDK remnants (if present)
+crypt/
+linutil/
+ufs/
+CMakeLists.txt
+make.sh
+.travis.yml
+.gitlab-ci.yml
+
+# Environment & Virtualenv
+.env
+.venv
+env/
+venv/
+ENV/
+
+# OS-generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+*.swp
+*~
